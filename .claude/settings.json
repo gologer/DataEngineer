@@ -7,7 +7,9 @@
       "PowerShell(& d:\\\\Day3\\\\DataEngineer\\\\.venv\\\\Scripts\\\\python.exe -m pip install google-cloud-bigquery folium shapely --only-binary :all: --quiet 2>&1)",
       "PowerShell(git -C d:\\\\Day3\\\\DataEngineer status --short)",
       "PowerShell(git -C d:\\\\Day3\\\\DataEngineer check-ignore -v .venv/ __pycache__/ osm_map.html test-credentials.json 2>$null)",
-      "PowerShell(\"---\")"
+      "PowerShell(\"---\")",
+      "PowerShell(git -C d:\\\\Day3\\\\DataEngineer push origin main 2>&1)",
+      "PowerShell(git -C d:\\\\Day3\\\\DataEngineer status -sb)"
     ]
   }
 }
