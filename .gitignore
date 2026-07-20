@@ -1,0 +1,31 @@
+# ---- Python ----
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- ผลลัพธ์ที่สคริปต์สร้าง (แผนที่ HTML) ----
+*.html
+
+# ---- ข้อมูลลับ / credentials (ห้าม commit เด็ดขาด) ----
+.env
+.env.*
+!.env.example
+*credentials*.json
+*service-account*.json
+*service_account*.json
+application_default_credentials.json
+# GCP service account key ที่ดาวน์โหลดมา (รูปแบบ <project>-<keyid>.json)
+geoai-training-*.json
+
+# ---- Claude Code (เก็บเฉพาะ settings.json ที่แชร์ร่วมกัน) ----
+.claude/settings.local.json
+
+# ---- OS / Editor ----
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+.idea/
