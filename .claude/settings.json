@@ -9,7 +9,12 @@
       "PowerShell(git -C d:\\\\Day3\\\\DataEngineer check-ignore -v .venv/ __pycache__/ osm_map.html test-credentials.json 2>$null)",
       "PowerShell(\"---\")",
       "PowerShell(git -C d:\\\\Day3\\\\DataEngineer push origin main 2>&1)",
-      "PowerShell(git -C d:\\\\Day3\\\\DataEngineer status -sb)"
+      "PowerShell(git -C d:\\\\Day3\\\\DataEngineer status -sb)",
+      "WebFetch(domain:claude.ai)",
+      "Bash(C:/Users/trainingpc01/AppData/Local/Programs/Python/Python314-32/python.exe -m pip install -r /d/Day3/DataEngineer/Landuse/requirements.txt)",
+      "Bash(PYTHONIOENCODING=utf-8 C:/Users/trainingpc01/anaconda3/python.exe step6_predict_map.py)",
+      "Bash(C:/Users/trainingpc01/anaconda3/python.exe -m pip install geedim)",
+      "Bash(PYTHONIOENCODING=utf-8 C:/Users/trainingpc01/anaconda3/python.exe step7_save_model_bq.py)"
     ]
   }
 }

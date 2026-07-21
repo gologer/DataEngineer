@@ -1,0 +1,12 @@
+earthengine-api==1.7.35
+geemap==0.37.2
+google-cloud-bigquery==3.42.2
+db-dtypes==1.7.1
+pandas==3.0.3
+numpy==2.4.6
+scikit-learn==1.9.0
+matplotlib==3.11.1
+pandas-gbq==0.35.0
+rasterio==1.4.4
+folium==0.20.0
+pillow
